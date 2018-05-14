@@ -1,0 +1,10 @@
+# visualgpt2
+Var
+// Seção de Declarações das variáveis 
+raio:real
+area:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ raio <- 3.14
+ area <- 3.14 *(3.14*3.14)
+ escreval("A área da pizza é de",area,"cm²")
