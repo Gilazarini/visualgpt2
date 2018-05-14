@@ -1,0 +1,19 @@
+# visualgpt2
+Var
+// Seção de Declarações das variáveis 
+N1: real
+ centena:real
+ dezena:real
+ unidade:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreval("Digite um número inteiro")
+  leia (N1)
+  centena <- N1/10
+  dezena <- centena/10
+  unidade <- dezena/10
+
+  escreval("Centena =", centena )
+  escreval("Dezena =", dezena)
+  escreval("Unidade =", unidade)
