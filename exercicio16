@@ -5,7 +5,10 @@ q:inteiro
 p:inteiro
 h:inteiro
 s:inteiro
-l:real
+l1:real
+l2:real
+l3:real
+lt:real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
   escreval("Quantos sanduíches você precisa fazer?")
@@ -15,5 +18,11 @@ Inicio
   p <- 50
   h <- 100
   
-  l <- (q*2)+p+h)/1000
-  escreval(l,"Kg")
+  l1 <- ((q*2)/1000)*s
+  l2 <- (p/1000)*s
+  l3 <- (h/1000)*s
+  
+
+  escreval("A quantidade de queijo é", l1," Kg")
+   escreval("A quantidade de presunto é", l2," Kg")
+    escreval("A quantidade de  hambúrguers é", l3," Kg")
