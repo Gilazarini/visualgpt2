@@ -1,0 +1,19 @@
+# visualgpt2
+Var
+// Seção de Declarações das variáveis 
+q:inteiro
+p:inteiro
+h:inteiro
+s:inteiro
+l:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreval("Quantos sanduíches você precisa fazer?")
+  leia(s)
+  
+  q <- 50
+  p <- 50
+  h <- 100
+  
+  l <- (q*2)+p+h)/1000
+  escreval(l,"Kg")
